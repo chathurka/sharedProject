@@ -19,6 +19,8 @@
 		844BEE6218C8BCE100EEE411 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844BEE4A18C8BCE100EEE411 /* UIKit.framework */; };
 		844BEE6A18C8BCE100EEE411 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844BEE6818C8BCE100EEE411 /* InfoPlist.strings */; };
 		844BEE6C18C8BCE100EEE411 /* TestApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BEE6B18C8BCE100EEE411 /* TestApplicationTests.m */; };
+		844BEE7718C8BD3600EEE411 /* KIFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BEE7618C8BD3600EEE411 /* KIFirstViewController.m */; };
+		844BEE7A18C8BD4600EEE411 /* KISecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BEE7918C8BD4600EEE411 /* KISecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		844BEE6718C8BCE100EEE411 /* TestApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		844BEE6918C8BCE100EEE411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		844BEE6B18C8BCE100EEE411 /* TestApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestApplicationTests.m; sourceTree = "<group>"; };
+		844BEE7518C8BD3600EEE411 /* KIFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KIFirstViewController.h; path = TestApplication/KIFirstViewController.h; sourceTree = "<group>"; };
+		844BEE7618C8BD3600EEE411 /* KIFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KIFirstViewController.m; path = TestApplication/KIFirstViewController.m; sourceTree = "<group>"; };
+		844BEE7818C8BD4600EEE411 /* KISecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KISecondViewController.h; sourceTree = "<group>"; };
+		844BEE7918C8BD4600EEE411 /* KISecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KISecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 		844BEE3A18C8BCE100EEE411 = {
 			isa = PBXGroup;
 			children = (
+				844BEE7818C8BD4600EEE411 /* KISecondViewController.h */,
+				844BEE7918C8BD4600EEE411 /* KISecondViewController.m */,
+				844BEE7518C8BD3600EEE411 /* KIFirstViewController.h */,
+				844BEE7618C8BD3600EEE411 /* KIFirstViewController.m */,
 				844BEE4C18C8BCE100EEE411 /* TestApplication */,
 				844BEE6518C8BCE100EEE411 /* TestApplicationTests */,
 				844BEE4518C8BCE100EEE411 /* Frameworks */,
@@ -241,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				844BEE5718C8BCE100EEE411 /* KIAppDelegate.m in Sources */,
+				844BEE7718C8BD3600EEE411 /* KIFirstViewController.m in Sources */,
+				844BEE7A18C8BD4600EEE411 /* KISecondViewController.m in Sources */,
 				844BEE5318C8BCE100EEE411 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

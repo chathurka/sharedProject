@@ -7,12 +7,18 @@
 //
 
 #import "KIAppDelegate.h"
+#import "KIFirstViewController.h"
 
 @implementation KIAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    KIFirstViewController *viewController = [[KIFirstViewController alloc] initWithNibName:Nil bundle:nil];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = nav;
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
