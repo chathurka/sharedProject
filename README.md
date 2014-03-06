@@ -1,0 +1,4 @@
+sharedProject
+=============
+
+share project
